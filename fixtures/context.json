@@ -1,0 +1,10 @@
+{
+  "domain": "language-talent-dispatch",
+  "version": 1,
+  "facts": [
+    "人才库包含专家、翻译人员和志愿者",
+    "五所高校参与长期合作",
+    "青少年志愿服务需要单独管理"
+  ],
+  "sample_id": "sample-019"
+}
