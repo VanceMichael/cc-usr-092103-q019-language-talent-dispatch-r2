@@ -1,0 +1,152 @@
+{
+  "universities": [
+    "北辰大学",
+    "澜江外国语大学",
+    "明德学院",
+    "南岭科技学院",
+    "西洲师范大学"
+  ],
+  "expert_categories": ["专家", "翻译人员", "志愿者"],
+  "people": [
+    {
+      "person_id": "P001",
+      "name": "林晚晴",
+      "organization": "澜江外国语大学",
+      "category": "专家",
+      "language_pairs": ["zh-en", "zh-fr"],
+      "service_types": ["会议口译"],
+      "clearance": 3,
+      "certifications": [
+        {"cert_id": "C-E1", "name": "会议口译高级证书", "language_pair": "zh-en", "issued": "2024-01-01T00:00:00+08:00", "expires": "2027-01-01T00:00:00+08:00"},
+        {"cert_id": "C-F1", "name": "法语口译证书", "language_pair": "zh-fr", "issued": "2024-01-01T00:00:00+08:00", "expires": "2027-01-01T00:00:00+08:00"}
+      ],
+      "availability": [{"start": "2026-10-01T00:00:00+08:00", "end": "2026-10-31T23:59:59+08:00"}],
+      "feedback": [
+        {"event_id": "E2025-01", "rating": 5, "comment": "开幕会同传稳定", "recorded_at": "2025-11-02T18:00:00+08:00"}
+      ]
+    },
+    {
+      "person_id": "P002",
+      "name": "赵启明",
+      "organization": "北辰大学",
+      "category": "翻译人员",
+      "language_pairs": ["zh-en"],
+      "service_types": ["会议口译", "公共讲解"],
+      "clearance": 2,
+      "certifications": [
+        {"cert_id": "C-E2", "name": "英语口译证书", "language_pair": "zh-en", "issued": "2023-06-01T00:00:00+08:00", "expires": "2026-06-01T00:00:00+08:00"}
+      ],
+      "availability": [{"start": "2026-10-01T00:00:00+08:00", "end": "2026-10-31T23:59:59+08:00"}],
+      "feedback": [
+        {"event_id": "E2025-02", "rating": 4, "comment": "展厅讲解清晰", "recorded_at": "2025-12-10T18:00:00+08:00"}
+      ]
+    },
+    {
+      "person_id": "P003",
+      "name": "陈斯羽",
+      "organization": "明德学院",
+      "category": "翻译人员",
+      "language_pairs": ["zh-sw"],
+      "service_types": ["会议口译", "青少年交流"],
+      "clearance": 2,
+      "certifications": [
+        {"cert_id": "C-S1", "name": "斯瓦希里语口译证书", "language_pair": "zh-sw", "issued": "2025-03-01T00:00:00+08:00", "expires": "2028-03-01T00:00:00+08:00"}
+      ],
+      "availability": [{"start": "2026-10-01T00:00:00+08:00", "end": "2026-10-31T23:59:59+08:00"}],
+      "feedback": []
+    },
+    {
+      "person_id": "P004",
+      "name": "何静怡",
+      "organization": "南岭科技学院",
+      "category": "志愿者",
+      "language_pairs": ["zh-en"],
+      "service_types": ["公共讲解", "青少年交流"],
+      "clearance": 1,
+      "certifications": [
+        {"cert_id": "C-E3", "name": "志愿服务英语能力证明", "language_pair": "zh-en", "issued": "2025-09-01T00:00:00+08:00", "expires": "2027-09-01T00:00:00+08:00"}
+      ],
+      "availability": [{"start": "2026-10-10T00:00:00+08:00", "end": "2026-10-20T23:59:59+08:00"}],
+      "feedback": []
+    },
+    {
+      "person_id": "P005",
+      "name": "苏小舟",
+      "organization": "西洲师范大学",
+      "category": "志愿者",
+      "language_pairs": ["zh-en"],
+      "service_types": ["青少年交流"],
+      "clearance": 1,
+      "is_minor": true,
+      "certifications": [
+        {"cert_id": "C-E4", "name": "青少年交流能力证明", "language_pair": "zh-en", "issued": "2026-01-01T00:00:00+08:00", "expires": "2027-01-01T00:00:00+08:00"}
+      ],
+      "availability": [{"start": "2026-10-10T00:00:00+08:00", "end": "2026-10-20T23:59:59+08:00"}],
+      "authorizations": [
+        {"kind": "guardian", "issuer": "监护人（书面）", "expires": "2027-06-01T00:00:00+08:00"},
+        {"kind": "school", "issuer": "西洲师范大学附属中学", "expires": "2027-06-01T00:00:00+08:00"}
+      ],
+      "feedback": []
+    },
+    {
+      "person_id": "P006",
+      "name": "周远山",
+      "organization": "北辰大学",
+      "category": "专家",
+      "language_pairs": ["zh-en"],
+      "service_types": ["公共讲解"],
+      "clearance": 1,
+      "certifications": [
+        {"cert_id": "C-E5", "name": "已过期的讲解证书", "language_pair": "zh-en", "issued": "2020-01-01T00:00:00+08:00", "expires": "2022-01-01T00:00:00+08:00"}
+      ],
+      "availability": [{"start": "2026-10-01T00:00:00+08:00", "end": "2026-10-31T23:59:59+08:00"}],
+      "feedback": [
+        {"event_id": "E2021-01", "rating": 3, "comment": "多年前的一次讲解", "recorded_at": "2021-05-01T18:00:00+08:00"}
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "post_id": "POST-01",
+      "event_id": "EV-100",
+      "scenario": "开幕式",
+      "service_type": "会议口译",
+      "language_pair": "zh-en",
+      "location": "国际会议中心A厅",
+      "timezone": "Asia/Shanghai",
+      "start": "2026-10-15T09:00:00+08:00",
+      "end": "2026-10-15T11:00:00+08:00",
+      "sensitivity": 3,
+      "content_rating": "适宜全体",
+      "waitlist_rule": {"max_concurrent_offers": 2, "rank_by": "rating"}
+    },
+    {
+      "post_id": "POST-02",
+      "event_id": "EV-100",
+      "scenario": "展厅讲解",
+      "service_type": "公共讲解",
+      "language_pair": "zh-en",
+      "location": "城市展览馆",
+      "timezone": "Asia/Shanghai",
+      "start": "2026-10-15T14:00:00+08:00",
+      "end": "2026-10-15T16:00:00+08:00",
+      "sensitivity": 1,
+      "content_rating": "适宜全体",
+      "waitlist_rule": {"max_concurrent_offers": 2, "rank_by": "rating"}
+    },
+    {
+      "post_id": "POST-03",
+      "event_id": "EV-101",
+      "scenario": "校园结对",
+      "service_type": "青少年交流",
+      "language_pair": "zh-en",
+      "location": "西洲师范大学附中",
+      "timezone": "Asia/Shanghai",
+      "start": "2026-10-16T10:00:00+08:00",
+      "end": "2026-10-16T12:00:00+08:00",
+      "sensitivity": 1,
+      "content_rating": "适宜全体",
+      "waitlist_rule": {"max_concurrent_offers": 3, "rank_by": "rating"}
+    }
+  ]
+}
